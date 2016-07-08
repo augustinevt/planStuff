@@ -1,0 +1,39 @@
+
+Think though how the node will be modified.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+okay, so I need to decide which to go with,
+
+  use jquery and only as much d3 as I need
+
+    pros: multiple click events to work with, easy to read, concise, the rest of the app will use it
+    cons: it's in an awkward part of the script (maybe?), has to be paired with vanilla js
+
+
+  or
+
+  try to use only d3
+
+    pros: keep everything consistent,
+    cons: transversing the dom
+
+  I can do either, I will need to integrate jquery in anyway most likely.
+
+  I need to define the best way to mix them up.
+
+  I can get t
+
+  I need to think though how this is going to work with altering the object itself. That is the case that jquery vs d3 may draw their own lines

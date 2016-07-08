@@ -1,0 +1,40 @@
+
+  {
+    "name": "Top Level",
+    "value" : 100,
+    "parent": "null",
+    "children": [
+      {
+        "name": "Level 2: A",
+        "value" : 75,
+        "parent": "Top Level",
+        "children": [
+          {
+            "name": "Son of A",
+            "value" : 25,
+            "parent": "Level 2: A"
+          },
+          {
+            "name": "Daughter of A",
+            "value" : 25,
+            "parent": "Level 2: A"
+          }
+        ]
+      },
+      {
+        "name": "Level 2: B",
+        "value" : 75,
+        "parent": "Top Level"
+      },
+      {
+        "name": "Mr. X",
+        "value" : 75,
+        "parent": "Top Level"
+      }
+
+    ]
+  }
+  function(d){return
+    if(d.target.userX !== 0) { return {'x':d.target.userX + d.target.x, 'y': d.target.y}}
+    else { return {'x':d.target.x, 'y': d.target.y}}
+  }

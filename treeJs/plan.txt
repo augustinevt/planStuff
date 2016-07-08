@@ -1,0 +1,41 @@
+I I can drag and exports
+
+I need to make it prefer userX/userY if they have value
+
+lines for dragging
+
+how it will update
+
+add
+
+forced layout or stick with the tree?
+
+research forced layout
+
+I'm considering both, but perhaps now is a good time to explore another option
+
+
+
+okay, should I work on adding or on force layout or room zen
+
+i think this
+  force layout
+  room zen model plan/ui basic (project protocol)
+  cleaning up code and making a new node button.
+
+
+
+
+ESCAPE FROM OBSESSION LAND
+
+obsessive searching:
+    fiddle with code
+    try to understand code
+
+obsessive problem
+  learn new things
+  try something new
+  work on another small project
+
+
+  ===== now I need 
